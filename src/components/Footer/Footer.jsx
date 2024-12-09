@@ -12,7 +12,7 @@ function Footer(){
             <section className={s.box1}>
                 <p>4002-8922</p>
                 <nav>
-                    <ul>
+                    <ul className="">
                         <li><img src={Facebook} alt="" /></li>
                         <li><img src={Twitter} alt="" /></li>
                         <li><img src={Youtube} alt="" /></li>
@@ -21,7 +21,7 @@ function Footer(){
                     </ul>
                 </nav>
             </section>
-            <section>
+            <section className={s.box2}>
                 <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024</p>
             </section>
         </footer>

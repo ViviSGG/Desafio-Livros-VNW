@@ -2,9 +2,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--color-dark-blue);
 
     .box1{
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 16px 8vw;
+        background-color: var(--color-dark-blue);
+        color: var(--color-light);
+
+        ul {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+
+            img {
+                height: 32px;
+            }
+        }
+    }
+
+    .box2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 16px 0;
+        background-color: var(--color-dark);
+        color: var(--color-light);
     }
 }

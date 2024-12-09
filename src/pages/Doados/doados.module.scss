@@ -1,4 +1,33 @@
 .doados {
     display: flex;
     flex-direction: column;
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 16vh 8vw;
+        gap: 8vh;
+
+        .livros {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            figure {
+                display: flex;
+                flex-direction: column;
+                width: 18vw;
+                border-radius: 8px;
+                padding: 16px;
+                align-items: center;
+                gap: 16px;
+                border: 2px solid var(--color-dark-blue);
+        
+                img {
+                    height: 80px;
+                }
+            }
+        }
+    }
 }

@@ -1,4 +1,27 @@
 .cards {
     display: flex;
     flex-direction: column;
+    padding: 16vh 8vw;
+    gap: 8vh;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        
+
+        figure {
+            display: flex;
+            flex-direction: column;
+            width: 18vw;
+            border-radius: 8px;
+            padding: 16px;
+            align-items: center;
+            gap: 16px;
+            background-color: var(--color-light-blue);
+
+            img {
+                height: 80px;
+            }
+        }
+    }
 }
