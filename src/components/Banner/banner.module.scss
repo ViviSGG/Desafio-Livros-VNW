@@ -1,0 +1,9 @@
+.banner {
+    display: flex;
+    align-items: center;
+    background-image: url(assets/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    color: var(--color-light);
+}
