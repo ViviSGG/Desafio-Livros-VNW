@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 16vh 8vw;
-    gap: 8vh;
+    gap: 4vh;
 
     div {
         display: flex;
@@ -14,13 +14,32 @@
             flex-direction: column;
             width: 18vw;
             border-radius: 8px;
-            padding: 16px;
+            padding: 24px;
             align-items: center;
             gap: 16px;
             background-color: var(--color-light-blue);
 
             img {
                 height: 80px;
+            }
+        }
+    }
+}
+
+@media (max-width: 940px) {
+    .cards {
+        padding: 8vh 8vw;
+
+        div {
+            flex-direction: column;
+            gap: 24px;
+
+            figure {
+                width: 100%;
+    
+                figcaption {
+                    text-align: center;
+                }
             }
         }
     }

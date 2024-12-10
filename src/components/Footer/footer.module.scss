@@ -8,7 +8,7 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        padding: 16px 8vw;
+        padding: 24px 8vw;
         background-color: var(--color-dark-blue);
         color: var(--color-light);
 
@@ -30,5 +30,34 @@
         padding: 16px 0;
         background-color: var(--color-dark);
         color: var(--color-light);
+    }
+}
+
+@media (max-width: 940px) {
+    .footer {
+
+        .box1{
+            flex-direction: column;
+            padding: 16px 8vw;
+            gap: 16px;
+    
+            ul {
+                display: flex;
+                gap: 16px;
+                align-items: center;
+    
+                img {
+                    height: 24px;
+                }
+            }
+        }
+        
+        .box2 {
+            padding: 16px 8vw;
+
+            p {
+                text-align: center;
+            }
+        }
     }
 }

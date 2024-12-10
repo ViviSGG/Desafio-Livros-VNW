@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-dark-blue);
+    // background-color: var(--color-dark-blue);
+    background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
     color: var(--color-light);
     padding: 16px 8vw;
 
@@ -42,6 +43,24 @@
     }
 }
 
-@media screen {
-    
+@media (max-width: 940px) {
+    .header {
+        flex-direction: column;
+        gap: 16px;
+        padding: 24px 8vw;
+
+        figure {
+            img {
+                height: 40px;
+            }
+        }
+
+        ul {
+            gap: 8vw;
+        }
+
+        button {
+            display: none;
+        }
+    }
 }

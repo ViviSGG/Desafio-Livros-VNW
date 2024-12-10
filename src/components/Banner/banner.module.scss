@@ -4,7 +4,25 @@
     background-image: url(../../assets/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    background-position: center;
+    height: 64vh;
     color: var(--color-light);
     padding: 0 8vw;
+
+    h1 {
+        font-size: 32px;
+        width: 40%;
+    }
+}
+
+@media (max-width: 940px) {
+    .banner {
+        height: 56vh;
+
+        h1 {
+            font-size: 32px;
+            width: 100%;
+            text-align: center;
+        }
+    }
 }
